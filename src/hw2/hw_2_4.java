@@ -1,3 +1,5 @@
+package hw2;
+
 import java.util.Scanner;
 
 public class hw_2_4 {
@@ -6,14 +8,14 @@ public class hw_2_4 {
         System.out.println("Ведите число:");
         int result;
 
-        if(scan.hasNextInt()) {
+        if (scan.hasNextInt()) {
             int num = scan.nextInt();
             if (num > 0) {
                 num++;
 
                 System.out.println("Результат операции:" + num);
 
-            } else if (num < 0){
+            } else if (num < 0) {
                 result = num - 2;
                 System.out.println("Ваше число больше нуля, результат:" + result);
 

@@ -1,11 +1,12 @@
+package hw2;
+
 import java.util.Scanner;
 
 public class hw_2_5 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Ведите первое число:");
-        if(scan.hasNextInt())
-        {
+        if (scan.hasNextInt()) {
             int number1 = scan.nextInt();
 
             System.out.println("Ведите второе число:");
